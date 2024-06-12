@@ -24,12 +24,16 @@ modules:
       # - micro
       - starship
       - swayfx
+      - greetd
+      - tuigreet
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - sway # conflicts with swayfx
+      - sddm
+      - sddm-wayland-sway # 这里的sddm（至少在虚拟机环境下）不工作
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
