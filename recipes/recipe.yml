@@ -50,6 +50,9 @@ modules:
       repo-title: "Flathub" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
+    user:
+      repo-name: flathub
+      install:
         - com.visualstudio.code
         - com.visualstudio.code.tool.podman//23.08
         - com.slack.Slack
