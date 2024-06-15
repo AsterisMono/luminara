@@ -19,6 +19,7 @@ modules:
   - type: rpm-ostree
     repos: 
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-40/solopasha-hyprland-fedora-40.repo
+      - https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-40/che-nerd-fonts-fedora-40.repo
     install:
       # Window manager and utilities
       - hyprland
@@ -36,6 +37,7 @@ modules:
       - wl-clipboard
       - xdg-user-dirs
       - fira-code-fonts
+      - nerd-fonts
       # IME
       - fcitx5
       - fcitx5-autostart
