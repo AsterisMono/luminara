@@ -53,6 +53,7 @@ modules:
         - com.visualstudio.code
         - com.visualstudio.code.tool.podman
         - com.slack.Slack
+        - com.github.tchx84.Flatseal
 
   - type: chezmoi
     repository: "AsterisMono/dotfiles"
