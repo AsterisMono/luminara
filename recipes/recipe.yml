@@ -35,6 +35,12 @@ modules:
       - cliphist
       - wl-clipboard
       - xdg-user-dirs
+      - fira-code-fonts
+      # IME
+      - fcitx5
+      - fcitx5-autostart
+      - fcitx5-configtool
+      - fcitx5-chinese-addons
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -55,7 +61,6 @@ modules:
       install:
         - com.visualstudio.code
         - com.visualstudio.code.tool.podman//23.08
-        - com.slack.Slack
         - com.github.tchx84.Flatseal
 
   - type: chezmoi
