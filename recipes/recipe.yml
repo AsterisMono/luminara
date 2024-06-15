@@ -51,7 +51,7 @@ modules:
       install:
         - org.mozilla.firefox
         - com.visualstudio.code
-        - com.visualstudio.code.tool.podman
+        - com.visualstudio.code.tool.podman//23.08
         - com.slack.Slack
         - com.github.tchx84.Flatseal
 
