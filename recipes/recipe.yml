@@ -17,6 +17,8 @@ modules:
   #                 # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
+    repos: 
+      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-40/solopasha-hyprland-fedora-40.repo
     install:
       # Window manager and utilities
       - hyprland
@@ -29,7 +31,8 @@ modules:
       - qt6-qtwayland
       - waybar
       - hyprpaper
-      - copyq
+      - hyprshot
+      - cliphist
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
