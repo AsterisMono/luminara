@@ -33,6 +33,7 @@ modules:
       - hyprpaper
       - hyprshot
       - cliphist
+      - wl-clipboard
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -48,8 +49,9 @@ modules:
       repo-title: "Flathub" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
-        # - com.visualstudio.code
-        # - com.visualstudio.code.tool.podman
+        - com.visualstudio.code
+        - com.visualstudio.code.tool.podman
+        - com.slack.Slack
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
